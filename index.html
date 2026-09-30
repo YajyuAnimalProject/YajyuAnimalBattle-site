@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>激闘ヒューマンバトル</title>
+<style>
+  :root {
+    --bg: #fafafa;
+    --text: #1a1a1a;
+    --accent: #e63946;
+    --border: #ddd;
+    --muted: #666;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111;
+      --text: #e8e8e8;
+      --accent: #ff6b6b;
+      --border: #333;
+      --muted: #999;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    padding: 3rem 1rem 2rem;
+  }
+  .container {
+    max-width: 560px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .icon {
+    width: 128px;
+    height: 128px;
+    border-radius: 24px;
+    display: block;
+    margin: 0 auto 1.2rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+  }
+  .desc {
+    font-size: 0.95rem;
+    margin-bottom: 1.6rem;
+  }
+  .store {
+    display: inline-block;
+    color: #fff;
+    background: var(--accent);
+    text-decoration: none;
+    padding: 0.6rem 1.6rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+  .links {
+    list-style: none;
+    border-top: 1px solid var(--border);
+    padding-top: 1.2rem;
+  }
+  .links li {
+    display: inline-block;
+    margin: 0 0.6rem 0.4rem;
+  }
+  .links a {
+    color: var(--accent);
+    font-size: 0.9rem;
+  }
+  .footer {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <img class="icon" src="assets/icon.png" alt="激闘ヒューマンバトル">
+  <h1>激闘ヒューマンバトル</h1>
+  <p class="desc">iOS 向けの 1対1 の 3D 格闘ゲームです。<br>オンライン対戦と、オフラインのステージで遊べます。</p>
+  <a class="store" href="https://apps.apple.com/jp/app/id6760141878">App Store</a>
+  <ul class="links">
+    <li><a href="terms_ja.html">利用規約</a></li>
+    <li><a href="privacy_ja.html">プライバシーポリシー</a></li>
+    <li><a href="support.html">サポート</a></li>
+  </ul>
+  <div class="footer">&copy; 2026 激闘ヒューマンバトル運営事務局</div>
+</div>
+</body>
+</html>

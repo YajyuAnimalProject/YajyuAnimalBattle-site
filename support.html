@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サポート - 激闘ヒューマンバトル</title>
+<style>
+  :root {
+    --bg: #fafafa;
+    --text: #1a1a1a;
+    --accent: #e63946;
+    --border: #ddd;
+    --section-bg: #fff;
+    --muted: #666;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111;
+      --text: #e8e8e8;
+      --accent: #ff6b6b;
+      --border: #333;
+      --section-bg: #1a1a1a;
+      --muted: #999;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    padding: 2rem 1rem;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 3px solid var(--accent);
+  }
+  .header h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+  .header .app-name {
+    font-size: 0.95rem;
+    color: var(--muted);
+  }
+  section {
+    background: var(--section-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  section h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    color: var(--accent);
+  }
+  section p {
+    font-size: 0.92rem;
+    margin-bottom: 0.6rem;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>サポート</h1>
+  <div class="app-name">激闘ヒューマンバトル</div>
+</div>
+
+<section>
+  <h2>お問い合わせ</h2>
+  <p>お問い合わせは、以下のメールアドレスまでお願いいたします。</p>
+  <p>humanbattlegekitou@gmail.com</p>
+</section>
+
+<div class="footer">
+  <a href="index.html" style="color:var(--accent)">トップへ</a><br>
+  &copy; 2026 激闘ヒューマンバトル運営事務局
+</div>
+
+</div>
+</body>
+</html>
